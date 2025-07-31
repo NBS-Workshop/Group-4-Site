@@ -145,7 +145,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/Group-4-Site/assets/css/style.css?v=20250228140408">
+        <link rel="stylesheet" href="/Group-4-Site/assets/css/style.css?v=20250731093422">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -322,7 +322,7 @@ layout-indicator-iframe
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;OBS_STATUS&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;E&quot;,&quot;M&quot;,&quot;&quot;]},&quot;title&quot;:&quot;OBS_STATUS&quot;},{&quot;name&quot;:&quot;NATURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;E&quot;,&quot;N&quot;,&quot;&quot;]},&quot;title&quot;:&quot;NATURE&quot;},{&quot;name&quot;:&quot;COMMENT_OBS&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;FAO estimate&quot;,&quot;NaN = Not relevant&quot;,&quot;&quot;]},&quot;title&quot;:&quot;COMMENT_OBS&quot;},{&quot;name&quot;:&quot;SOURCE_DETAIL&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Food and Agriculture Organization of the United Nations (FAO)&quot;,&quot;NA&quot;,&quot;&quot;]},&quot;title&quot;:&quot;SOURCE_DETAIL&quot;},{&quot;name&quot;:&quot;SDG Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Area of degraded mountain land (square kilometres) [15.4.2]&quot;,&quot;Proportion of degraded mountain land (%) [15.4.2]&quot;,&quot;Mountain green cover area (square kilometres) [15.4.2]&quot;,&quot;Mountain Green Cover Index [15.4.2]&quot;,&quot;Mountain area (square kilometres) [15.4.2]&quot;,&quot;&quot;]},&quot;title&quot;:&quot;SDG Series&quot;},{&quot;name&quot;:&quot;Custom Breakdown&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Custom code 01&quot;,&quot;Custom code 02&quot;,&quot;Custom code 03&quot;,&quot;Custom code 04&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Custom Breakdown&quot;},{&quot;name&quot;:&quot;Composite breakdown&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Land Cover: Artificial surfaces&quot;,&quot;Land Cover: Croplands&quot;,&quot;Land Cover: Grassland&quot;,&quot;Land Cover: Inland water bodies&quot;,&quot;Land Cover: MGCI&quot;,&quot;Land Cover: Permanent snow and glaciers&quot;,&quot;Land Cover: Shrubs and/or herbaceous vegetation, aquatic or regularly flooded&quot;,&quot;Land Cover: Shrub-covered areas&quot;,&quot;Land Cover: Sparsely natural vegetated areas&quot;,&quot;Land Cover: Terrestrial barren land&quot;,&quot;Land Cover: Tree-covered areas&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Composite breakdown&quot;},{&quot;name&quot;:&quot;Unit of measure&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Square kilometers&quot;,&quot;Percent&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Unit of measure&quot;},{&quot;name&quot;:&quot;Observation status&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Observation status&quot;},{&quot;name&quot;:&quot;Nature of data points&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Estimated&quot;,&quot;Non-relevant&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Nature of data points&quot;},{&quot;name&quot;:&quot;Observation-level footnotes&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;FAO estimate&quot;,&quot;NaN = Not relevant&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Observation-level footnotes&quot;},{&quot;name&quot;:&quot;Source details&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Food and Agriculture Organization of the United Nations (FAO)&quot;,&quot;NA&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Source details&quot;},{&quot;name&quot;:&quot;Label for custom breakdown&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Nival&quot;,&quot;Alpine&quot;,&quot;Montane&quot;,&quot;Remaining mountain area&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Label for custom breakdown&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -764,7 +764,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Metadata update </th>
         <td>
           
-            <p>2024-07-29</p>
+            <p>2025-04-23</p>
 
           
         </td>
@@ -985,12 +985,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/Group-4-Site/assets/js/sdg.js?v=20250228140408'></script>
+<script src='/Group-4-Site/assets/js/sdg.js?v=20250731093422'></script>
 
 
     
     
-    <script src="/Group-4-Site/assets/js/custom.js?v=20250228140408"></script><script>
+    <script src="/Group-4-Site/assets/js/custom.js?v=20250731093422"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
